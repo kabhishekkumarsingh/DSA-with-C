@@ -50,6 +50,7 @@ switch(choice){
     case 1: push(); break;
     case 2: pop(); break;
     case 3: display(); break;
+    default : printf("Invilid input");
     
 }
 }while(choice !=4);
